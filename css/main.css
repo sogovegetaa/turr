@@ -396,7 +396,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 
 .owl-theme .owl-nav.disabled + .owl-dots {
 	margin-left: -250px;
-	margin-top: 10px!important;
+	margin-top: 28px!important;
 }
 .car-but {
 	position: relative;
@@ -425,7 +425,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	height: 53px!important;
 }
 .most-direction {
-	height: 804px;
+	height: 840px;
 }
 .direction-block {
 	height: 250px;
