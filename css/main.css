@@ -2,7 +2,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .header {
-	padding: 25px 0 25px;
+	padding: 10px 0 10px;
 }
 
 .header-block {
@@ -16,7 +16,7 @@ body {
 
 .log-img img {
 	width: 260px;
-	height: 73px;
+	height: 70px;
 }
 
 .bg-oun {
