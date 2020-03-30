@@ -211,8 +211,10 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	width: 539px;
 }
 .tour-car {
+	position: relative;
 	background-color: #F1FAFF;
-	height: 500px;
+	height: 565px;
+	top: -100px;
 }
 .tour-text {
 	text-transform: uppercase;
