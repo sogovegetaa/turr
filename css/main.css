@@ -71,7 +71,9 @@ body {
 	display: flex;
 	align-items: center;
 }
-
+.re-tex{
+	padding-bottom: 50px;
+}
 .select-text h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 53px;
