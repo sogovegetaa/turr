@@ -2,7 +2,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .header {
-	padding: 10px 0 10px;
+	padding: 25px 0 25px;
 }
 
 .header-block {
@@ -16,7 +16,7 @@ body {
 
 .log-img img {
 	width: 260px;
-	height: 70px;
+	height: 73px;
 }
 
 .bg-oun {
@@ -64,16 +64,14 @@ body {
 
 .select-block {
 	background: url(../img/sel/sloi.jpg) no-repeat center / cover;
-	height: 540px;
+	height: 80vh;
 }
 
 .select-block {
 	display: flex;
 	align-items: center;
 }
-.re-tex{
-	padding-bottom: 50px;
-}
+
 .select-text h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 53px;
@@ -128,13 +126,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	color: #C1C1C1!important;
 	background-color: white;
 }
-.dropdown-oun-private {
-	margin-right: 25px;
-	width: 70px;
-}
-.private-text a{
-	color: black!important;
-}
+
 .nav-link.active {
 	color: white!important;
 	background-color: #FDC913!important;
@@ -180,7 +172,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .search {
-	max-width: 15.666667%!important;
+	max-width: 11.666667%!important;
 }
 
 .btn-warning {
@@ -188,7 +180,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	font-weight: 600!important;
 	font-size: 20px!important;
 	margin-top: -1px;
-	padding: 14px 63px 14px 15px!important;
+	padding: 10px 22px 14px 15px!important;
 	height: 54px!important;
 }
 .line-left-d {
@@ -218,11 +210,11 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	height: 623px;
 }
 .tour-text {
-	
+	text-transform: uppercase;
 	color: #848484;
 }
 .tour-text h2 {
-	font-size: 35px;
+	font-size: 31px;
 }
 .tour-span span {
 	color: #0A85C1;
@@ -230,14 +222,16 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 .tour-title {
 	margin-bottom: 35px;
 }
-
-
-.tour-car {
-	background-color: #F1FAFF;
-	height: 540px;
-	    margin-top: -100px;
+.re-tex{
+	padding-bottom: 50px;
 }
-
+.dropdown-oun-private {
+	margin-right: 25px;
+	width: 71px;
+}
+.private-text a{
+	color: black!important;
+}
 .first {
 	margin-top: 0px!important;
 	margin-bottom: 0px!important;
@@ -245,6 +239,9 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	width: 70px!important;
 }
 
+.tour-oper {
+	width: 729px!important;
+}
 .carousel-img {
 	
 	height: 263px;
@@ -354,7 +351,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 
 .owl-nav div {
 	width: 55px;
-	height: 55px;
+	height: 5px;
 	text-align: center;
 	cursor: pointer;
 	background-color: white;
@@ -700,3 +697,76 @@ color: white!important;
 	padding-top: 63px;
 	margin-left: 150px;
 }
+.dropdown-oun-sera {
+	height: 23px;
+}
+.dropdown-oun-sera a{
+	color: #818181!important;
+	font-weight: 300!important;
+
+}
+.dropdown-toggle::after {
+	
+}
+.header-links a{
+	width: 52px!important;
+	height: 52px!important;
+}
+.vectorss {
+	border: 2px solid #0A85C1;
+	border-radius: 30px;
+	
+}
+.header-img img {
+	height: 52px!important;
+	width: 52px!important;
+	position: relative;
+	left: 50px;
+	z-index: 1;
+}
+
+.header-inff {
+	border: 1px solid #0A85C1;
+	border-radius: 10px;
+}
+.header-inf-title {
+	background-color: #6BD728;
+	height: 19px;
+	width: 190px;
+	position: relative;
+	left: -17px;
+	border-radius: 10px;
+}
+.header-inf-title:hover {
+	background-color: #7FEB3C;
+}
+.header-inf-title h2 {
+	color: white!important;
+	font-size: 13px!important;
+	font-weight: 500!important;
+	cursor: pointer;
+}
+.header-inf-ct u{
+	font-size: 25px;
+	color:  #0A85C1;
+	font-weight: 700;
+	position: relative;
+	top: -10px;
+	cursor: pointer;
+}
+.header-inf-ct u:hover {
+	color: #24A6E5;
+}
+.header-inf-numb u{
+	font-size: 18px;
+	color:  #0A85C1;
+	font-weight: 700;
+	position: relative;
+	top: -1px;
+	left: 5px;
+	cursor: pointer;
+}
+.header-inf-numb u:hover {
+	color: #24A6E5;
+}
+
