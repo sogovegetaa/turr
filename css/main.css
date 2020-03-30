@@ -71,7 +71,9 @@ body {
 	display: flex;
 	align-items: center;
 }
-
+.re-tex{
+	padding-bottom: 50px;
+}
 .select-text h2 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 53px;
@@ -126,7 +128,13 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	color: #C1C1C1!important;
 	background-color: white;
 }
-
+.dropdown-oun-private {
+	margin-right: 25px;
+	width: 71px;
+}
+.private-text a{
+	color: black!important;
+}
 .nav-link.active {
 	color: white!important;
 	background-color: #FDC913!important;
