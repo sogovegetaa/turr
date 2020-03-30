@@ -2,7 +2,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .header {
-	padding: 10px 0 10px;
+	padding: 25px 0 25px;
 }
 
 .header-block {
@@ -16,7 +16,7 @@ body {
 
 .log-img img {
 	width: 260px;
-	height: 70px;
+	height: 73px;
 }
 
 .bg-oun {
@@ -64,7 +64,7 @@ body {
 
 .select-block {
 	background: url(../img/sel/sloi.jpg) no-repeat center / cover;
-	height: 540px;
+	height: 80vh;
 }
 
 .select-block {
@@ -154,7 +154,9 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	padding: 15px 5px;
 	border-right: 1px solid #C1C1C1;
 }
-
+.tab-last{
+	border-right: none!important;
+}
 .tab-svg img{
 	width: 23px;
 	height: 23px;
@@ -186,9 +188,6 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	padding: 10px 22px 14px 15px!important;
 	height: 54px!important;
 }
-.tab-last{
-	border-right: none!important;
-}
 .line-left-d {
 	display: flex;
 	align-items: center;
@@ -213,9 +212,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 .tour-car {
 	background-color: #F1FAFF;
-	height: 556px;
-	position: relative;
-	top: -61px;
+	height: 623px;
 }
 .tour-text {
 	text-transform: uppercase;
@@ -268,8 +265,11 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border: 0px solid #000000;
 }
-
-.up img {
+.up-content{
+	position: relative;
+	top: -220px;
+}
+.up-content img {
 
 	width: 15px!important;
 	height: 15px;
@@ -344,7 +344,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 .car-text {
 	position: relative;
-	top: -60px;
+	top: -270px;
 	color: #0A85C1;
 	font-weight: 600;
 	padding-left: 12px;
@@ -353,7 +353,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 
 .car-subtext {
 	position: relative;
-	top: -75px;
+	top: -284px;
 	color: #8E8E8E;
 	font-weight: 600;
 	font-size: 17px;
@@ -362,7 +362,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 
 .owl-nav div {
 	width: 55px;
-	height: 55px;
+	height: 5px;
 	text-align: center;
 	cursor: pointer;
 	background-color: white;
@@ -401,7 +401,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 
 .owl-theme .owl-nav.disabled + .owl-dots {
 	margin-left: -250px;
-	margin-top: 28px!important;
+	margin-top: 10px!important;
 }
 .car-but {
 	position: relative;
@@ -430,7 +430,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 	height: 53px!important;
 }
 .most-direction {
-	height: 840px;
+	height: 804px;
 }
 .direction-block {
 	height: 250px;
@@ -650,7 +650,7 @@ z-index: 1;
 
 .footer {
 	background-color: #0A5F89;
-	height: 395px;
+	height: 483px;
 }
 .btn-footer {
 	margin-top: 60px;
@@ -780,4 +780,3 @@ color: white!important;
 .header-inf-numb u:hover {
 	color: #24A6E5;
 }
-
