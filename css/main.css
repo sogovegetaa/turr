@@ -770,7 +770,7 @@ color: white!important;
 .header-inf-ct u:hover {
 	color: #24A6E5;
 }
-.header-inf-numb u{
+.header-inf-numb {
 	font-size: 18px;
 	color:  #0A85C1;
 	font-weight: 700;
